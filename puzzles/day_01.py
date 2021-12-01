@@ -1,5 +1,3 @@
-from pathlib import Path
-
 from functional import seq
 
 from puzzles.utils import get_input_seq

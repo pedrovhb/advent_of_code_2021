@@ -1,7 +1,6 @@
 from pathlib import Path
 
 from functional import seq
-from functional.streams import Stream
 
 
 def get_input_seq(day: int) -> seq:
@@ -14,4 +13,4 @@ def get_input_seq(day: int) -> seq:
 
 
 if __name__ == "__main__":
-    get_input_seq(1).for_each(print)
+    get_input_seq(day=1).for_each(print)
