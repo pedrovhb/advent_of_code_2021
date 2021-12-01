@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "advent_of_code_2021"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Batista <pedrovhb@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyfunctional = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+isort = "^5.10.1"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
