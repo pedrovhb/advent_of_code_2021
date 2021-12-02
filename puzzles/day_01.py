@@ -32,7 +32,7 @@ def get_window_sums(int_seq: seq, window_size: int) -> int:
     return window_sums
 
 
-def day_1_part_1():
+def day_1_part_1() -> int:
     """
     --- Day 1: Sonar Sweep ---
 
@@ -105,9 +105,10 @@ def day_1_part_1():
     result = larger_than_previous_count(input_seq)
     print(f"Result for day 1, part 1: {result}")
     assert result == 1527
+    return result
 
 
-def day_1_part_2():
+def day_1_part_2() -> int:
     """
     --- Part Two ---
 
@@ -161,6 +162,7 @@ def day_1_part_2():
     result = larger_than_previous_count(window_sums)
     print(f"Result for day 1, part 2: {result}")
     assert result == 1575
+    return result
 
 
 if __name__ == "__main__":

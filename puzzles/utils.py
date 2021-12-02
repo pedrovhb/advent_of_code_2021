@@ -9,7 +9,7 @@ def get_input_seq(day: int) -> seq:
     """
     fname = f"day_{day:02}_input.txt"
     fpath = Path(__file__).parent.parent / "inputs" / fname
-    return seq.open(fpath).flat_map(str.split).map(str.strip)
+    return seq.open(fpath).map(str.strip)
 
 
 if __name__ == "__main__":
